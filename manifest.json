@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "vishakh.bhagavad-gita",
+  "name": "Bhagavad Gita",
+  "version": "0.2.0",
+  "author": "vishakh",
+  "license": "MIT",
+  "description": "Read the Bhagavad Gita from your Omarchy bar — daily verses, navigation, search, and bookmarks",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Bhagavad Gita",
+    "description": "Daily verse and scripture browser from the Bhagavad Gita",
+    "category": "Info",
+    "allowMultiple": false,
+    "defaultSection": "center",
+    "defaults": {
+      "showSanskrit": true,
+      "showTransliteration": true,
+      "showTranslation": true
+    },
+    "schema": [
+      {
+        "key": "showSanskrit",
+        "type": "boolean",
+        "label": "Show Sanskrit text",
+        "defaultValue": true
+      },
+      {
+        "key": "showTransliteration",
+        "type": "boolean",
+        "label": "Show transliteration",
+        "defaultValue": true
+      },
+      {
+        "key": "showTranslation",
+        "type": "boolean",
+        "label": "Show translation",
+        "defaultValue": true
+      }
+    ]
+  }
+}
