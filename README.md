@@ -21,7 +21,7 @@ Read the Bhagavad Gita from your Omarchy status bar. A bar widget that opens a k
 Install from the marketplace (once published):
 
 ```bash
-omarchy plugin install vishakh.bhagavad-gita
+omarchy plugin add https://github.com/candycrabmusic/bhagavad-gita-plugin.git --enable
 ```
 
 ### Manual install
